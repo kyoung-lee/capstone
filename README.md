@@ -61,8 +61,7 @@ Professor
     |Model|학습데이터|
     |---|---|
     |Team A | Real Face 52600장 |
-    |Team B| Real Face 15000장
-    Fake Face 15000|
+    |Team B| Real Face 15000장 \Fake Face 15000|
 
 
 - 학습된 모델의 입력 및 출력 데이터

@@ -51,7 +51,7 @@ Professor
 | Lim sung hoon | Hallym Univ(Prof.) | shlim@hallym.ac.kr
 
 <img src="./image/generator.JPG" width="650" height="300">
-<img src="./image/discriminator.JPG" width="650" height="300">
+<img src="./image/Discriminator.jpg" width="650" height="300">
 
 위에서 정의한 2가지 모델을 다음과 같은 구조로 경쟁을 하며 네트워크의 성능 발전을 시키고자 한다.
 

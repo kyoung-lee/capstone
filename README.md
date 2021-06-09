@@ -64,13 +64,6 @@ Professor
     |Team A | Real Face 52600장 |
     |Team B| Real Face 15000장 \Fake Face 15000|
 
-
-- 학습된 모델의 입력 및 출력 데이터
-|Model|입력데이터|출력데이터
-    |---|---|---|
-    | GAN Generator | e | o |
-    | CNN Discriminator | r | ata |
-
 -----
 ### GAN-Model
  - 사람얼굴을 비지도 학습을 통하여 가짜얼굴(Deepfake)를 생성하는 적대적 신경망 구조

@@ -6,10 +6,9 @@
 -----
 
 ## Directory
-- Data preprocessing : Data 전처리
 - Team A : 이미지 생성을 위한 Gan모델
 - Team B : 이미지 판별을 위한 CNN모델
-- images : Image assets for README
+- VisualizeFake : 생성한 이미지
 
 ## Contents
 1. [소개 : 프로젝트에 대한 간략한 소개 및 목적](#Introduction)
@@ -31,7 +30,7 @@
 본 프로젝트는 GAN(Generative Adversarial Network) 모델과 CNN(Convolutional Neural Network) 모델을 동시적으로 학습시키는 방법을 고안했다.
 
 AI 기술이 빠르게 발전하고 대중화 되면서 AI분야 중 딥러닝을 이용하여 인위적으로 얼굴을 조작하여 Deepfake 뒤에 숨어 타인의 명예를 훼손하거나 허위 사실들을 유포하는 등 범죄에도 사용되는 사례가 발생하고있다. 
- 프로젝트에서 제안하는 방법은 두 네트워크 간의 적대적 학습방법을 통해 Team A은 육안을 넘어 컴퓨터가 인지하기 어려운 가짜 얼굴을 만들어 내고 TeamB은 생성된 이미지를 인식하여 real과 fake이미지를 구분하는 모델을 구성하여, TeamA와 TeamB은 서로 경쟁을 하며 성능이 개선된 생성기(Generator)와 판별기(Discriminator)를 만드는 것이 주된 목적이다.
+프로젝트에서 제안하는 방법은 두 네트워크 간의 적대적 학습방법을 통해 Team A은 육안을 넘어 컴퓨터가 인지하기 어려운 가짜 얼굴을 만들어 내고 TeamB은 생성된 이미지를 인식하여 real과 fake이미지를 구분하는 모델을 구성하여, TeamA와 TeamB은 서로 경쟁을 하며 성능이 개선된 생성기(Generator)와 판별기(Discriminator)를 만드는 것이 주된 목적이다.
 
 ## Team
 5인이상 집합금지
@@ -61,7 +60,7 @@ Professor
     |Model|학습데이터|
     |---|---|
     |Team A | Real Face 52600장 |
-    |Team B| Real Face 15000장 \Fake Face 15000|
+    |Team B| Real Face 15000장 / Fake Face 15000|
 
 -----
 ### GAN-Model

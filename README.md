@@ -1,16 +1,15 @@
-# Capstone design
+# Hallym University Capstone Design
 캡스톤디자인-5인이상집합금지
 
 # Create fake faces through deepfakes and discriminate fake face images
-## Hallym University Capstone Design
 
 -----
 
 ## Directory
 - Data preprocessing : Data 전처리
-- Model : 프로젝트에서 구현한 모델
+- Team A : 이미지 생성을 위한 Gan모델
+- Team B : 이미지 판별을 위한 CNN모델
 - images : Image assets for README
-- meeting : 주차별 회의
 
 ## Contents
 1. [소개 : 프로젝트에 대한 간략한 소개 및 목적](#Introduction)

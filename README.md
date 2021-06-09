@@ -113,7 +113,7 @@ Fully Connected Layer 만으로 구성된 인공 신경망의 입력 데이터�
 
 ### Output
  - GAN을 이용한 가짜 사람 얼굴(Deepfake) 데이터 생성 과정 및 결과
-<center><img src="./image/dcgan.gif" width="200" height="200" display="inline-block"></img></center>
+<center><img src="./VisualizeFake/FakeFaceAnimation.gif" width="200" height="200" display="inline-block"></img></center>
 
 -----
 

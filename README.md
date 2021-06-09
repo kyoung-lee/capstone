@@ -63,7 +63,8 @@ Professor
     |Team B| Real Face 15000장 / Fake Face 15000|
 
 -----
-### GAN-Model
+## GAN-Model
+-----
  - 사람얼굴을 비지도 학습을 통하여 가짜얼굴(Deepfake)를 생성하는 적대적 신경망 구조
  - GAN 구조
 
@@ -85,7 +86,8 @@ DCGAN의 Discriminator의 구조는 64X64크기의 이미지를 입력 받아 Tr
 
 활성화함수로는 아래 그림에서 확인할 수 있듯이 LeakyReLU를 사용한다. LeakyReLU는 기존 ReLU와 달리 음수영역의 값을 버리지 않고 가져온다.
 
-### CNN-Model
+## CNN-Model
+-----
  - real/fake로 이진분류를 통해 GAN모델에서 만든 가짜얼굴(Deepfake)을 판별하는 모델 구조
  - Binary Classification
 

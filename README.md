@@ -1,7 +1,7 @@
 # Capstone design
 캡스톤디자인-5인이상집합금지
 
-# Create GAN Networks Using Deep Learning
+# Create fake faces through deepfakes and discriminate fake face images
 ## Hallym University Capstone Design
 
 -----

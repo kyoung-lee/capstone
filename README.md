@@ -50,7 +50,8 @@ Professor
 |---|---|---|
 | Lim sung hoon | Hallym Univ(Prof.) | shlim@hallym.ac.kr
 
-![모델 구조](./image/)
+![생성기 모델 구조](./image/generator.JPG)
+![판별기 모델 구조](./image/discriminator.JPG)
 
 위에서 정의한 2가지 모델을 다음과 같은 구조로 경쟁을 하며 네트워크의 성능 발전을 시키고자 한다.
 
